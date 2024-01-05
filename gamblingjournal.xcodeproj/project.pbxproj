@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43028BD52AAE1667003A5766 /* SaveSessionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43028BD42AAE1667003A5766 /* SaveSessionsView.swift */; };
+		43028BD72AAE16D1003A5766 /* LoadSessionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43028BD62AAE16D1003A5766 /* LoadSessionsView.swift */; };
+		43028BD92AAE1BB4003A5766 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43028BD82AAE1BB4003A5766 /* SettingsView.swift */; };
+		432BE0512AA97669002438C8 /* SessionDetailesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432BE0502AA97669002438C8 /* SessionDetailesView.swift */; };
+		432BE0532AA976CE002438C8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432BE0522AA976CE002438C8 /* Utilities.swift */; };
+		433D9D7D2ABA0298007823B8 /* SessionDetailesVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D9D7C2ABA0298007823B8 /* SessionDetailesVM.swift */; };
+		433D9D802ABA04BE007823B8 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D9D7F2ABA04BE007823B8 /* ContentViewModel.swift */; };
+		4340BA9E2AB9ECD600976DA0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4340BA9D2AB9ECD600976DA0 /* Model.swift */; };
+		4340BAA02AB9F1F700976DA0 /* LoadSessionsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4340BA9F2AB9F1F700976DA0 /* LoadSessionsVM.swift */; };
+		4340BAA32AB9F80D00976DA0 /* SaveSessionsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4340BAA22AB9F80D00976DA0 /* SaveSessionsVM.swift */; };
+		435D2B1A2ABA4C4400869CEF /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D2B192ABA4C4400869CEF /* LineChartView.swift */; };
 		436E416C2AA8C8E00040816C /* gamblingjournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436E416B2AA8C8E00040816C /* gamblingjournalApp.swift */; };
 		436E416E2AA8C8E00040816C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436E416D2AA8C8E00040816C /* Persistence.swift */; };
 		436E41712AA8C8E00040816C /* gamblingjournal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 436E416F2AA8C8E00040816C /* gamblingjournal.xcdatamodeld */; };
@@ -16,6 +27,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43028BD42AAE1667003A5766 /* SaveSessionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveSessionsView.swift; sourceTree = "<group>"; };
+		43028BD62AAE16D1003A5766 /* LoadSessionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadSessionsView.swift; sourceTree = "<group>"; };
+		43028BD82AAE1BB4003A5766 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		432BE0502AA97669002438C8 /* SessionDetailesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDetailesView.swift; sourceTree = "<group>"; };
+		432BE0522AA976CE002438C8 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		433D9D7C2ABA0298007823B8 /* SessionDetailesVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDetailesVM.swift; sourceTree = "<group>"; };
+		433D9D7F2ABA04BE007823B8 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		4340BA9D2AB9ECD600976DA0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		4340BA9F2AB9F1F700976DA0 /* LoadSessionsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadSessionsVM.swift; sourceTree = "<group>"; };
+		4340BAA22AB9F80D00976DA0 /* SaveSessionsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveSessionsVM.swift; sourceTree = "<group>"; };
+		435D2B192ABA4C4400869CEF /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
 		436E41682AA8C8E00040816C /* gamblingjournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gamblingjournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		436E416B2AA8C8E00040816C /* gamblingjournalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gamblingjournalApp.swift; sourceTree = "<group>"; };
 		436E416D2AA8C8E00040816C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -24,6 +46,7 @@
 		436E41742AA8C8E00040816C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		436E41762AA8C8E00040816C /* gamblingjournal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = gamblingjournal.entitlements; sourceTree = "<group>"; };
 		436E41782AA8C8E00040816C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		436E9A3B2ABCD30000D7DF91 /* gamblingjournalV2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gamblingjournalV2.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +60,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4312BFBA2ABCBDB4008582BB /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				435D2B192ABA4C4400869CEF /* LineChartView.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		433D9D7E2ABA03EC007823B8 /* SessionDetails */ = {
+			isa = PBXGroup;
+			children = (
+				432BE0502AA97669002438C8 /* SessionDetailesView.swift */,
+				433D9D7C2ABA0298007823B8 /* SessionDetailesVM.swift */,
+			);
+			path = SessionDetails;
+			sourceTree = "<group>";
+		};
+		4340BAA12AB9F49900976DA0 /* LoadSessions */ = {
+			isa = PBXGroup;
+			children = (
+				43028BD62AAE16D1003A5766 /* LoadSessionsView.swift */,
+				4340BA9F2AB9F1F700976DA0 /* LoadSessionsVM.swift */,
+			);
+			path = LoadSessions;
+			sourceTree = "<group>";
+		};
+		4340BAA42AB9F82900976DA0 /* SaveSessions */ = {
+			isa = PBXGroup;
+			children = (
+				43028BD42AAE1667003A5766 /* SaveSessionsView.swift */,
+				4340BAA22AB9F80D00976DA0 /* SaveSessionsVM.swift */,
+			);
+			path = SaveSessions;
+			sourceTree = "<group>";
+		};
+		435D886E2ABA0B7600A8AB3B /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				436E41722AA8C8E00040816C /* ContentView.swift */,
+				433D9D7F2ABA04BE007823B8 /* ContentViewModel.swift */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
 		436E415F2AA8C8E00040816C = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +123,16 @@
 		436E416A2AA8C8E00040816C /* gamblingjournal */ = {
 			isa = PBXGroup;
 			children = (
+				43028BD82AAE1BB4003A5766 /* SettingsView.swift */,
 				436E416B2AA8C8E00040816C /* gamblingjournalApp.swift */,
 				436E416D2AA8C8E00040816C /* Persistence.swift */,
-				436E41722AA8C8E00040816C /* ContentView.swift */,
+				432BE0522AA976CE002438C8 /* Utilities.swift */,
+				4340BA9D2AB9ECD600976DA0 /* Model.swift */,
+				4312BFBA2ABCBDB4008582BB /* Chart */,
+				435D886E2ABA0B7600A8AB3B /* ContentView */,
+				433D9D7E2ABA03EC007823B8 /* SessionDetails */,
+				4340BAA42AB9F82900976DA0 /* SaveSessions */,
+				4340BAA12AB9F49900976DA0 /* LoadSessions */,
 				436E41742AA8C8E00040816C /* Assets.xcassets */,
 				436E41762AA8C8E00040816C /* gamblingjournal.entitlements */,
 				436E416F2AA8C8E00040816C /* gamblingjournal.xcdatamodeld */,
@@ -103,7 +177,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					436E41672AA8C8E00040816C = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -146,9 +220,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				436E416C2AA8C8E00040816C /* gamblingjournalApp.swift in Sources */,
+				433D9D7D2ABA0298007823B8 /* SessionDetailesVM.swift in Sources */,
+				43028BD52AAE1667003A5766 /* SaveSessionsView.swift in Sources */,
 				436E41712AA8C8E00040816C /* gamblingjournal.xcdatamodeld in Sources */,
+				4340BA9E2AB9ECD600976DA0 /* Model.swift in Sources */,
+				43028BD72AAE16D1003A5766 /* LoadSessionsView.swift in Sources */,
+				4340BAA02AB9F1F700976DA0 /* LoadSessionsVM.swift in Sources */,
+				433D9D802ABA04BE007823B8 /* ContentViewModel.swift in Sources */,
+				435D2B1A2ABA4C4400869CEF /* LineChartView.swift in Sources */,
+				432BE0532AA976CE002438C8 /* Utilities.swift in Sources */,
 				436E41732AA8C8E00040816C /* ContentView.swift in Sources */,
+				432BE0512AA97669002438C8 /* SessionDetailesView.swift in Sources */,
 				436E416E2AA8C8E00040816C /* Persistence.swift in Sources */,
+				4340BAA32AB9F80D00976DA0 /* SaveSessionsVM.swift in Sources */,
+				43028BD92AAE1BB4003A5766 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,9 +273,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -205,6 +292,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -246,9 +335,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -257,6 +348,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -272,11 +365,14 @@
 				CODE_SIGN_ENTITLEMENTS = gamblingjournal/gamblingjournal.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"gamblingjournal/Preview Content\"";
 				DEVELOPMENT_TEAM = 5BB8VQ988Q;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Gambling Journal";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -287,11 +383,11 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.28;
 				PRODUCT_BUNDLE_IDENTIFIER = pulcer.gamblingjournal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -307,14 +403,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = gamblingjournal/gamblingjournal.entitlements;
+				CODE_SIGN_ENTITLEMENTS = gamblingjournal/gamblingjournalRelease.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"gamblingjournal/Preview Content\"";
 				DEVELOPMENT_TEAM = 5BB8VQ988Q;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Gambling Journal";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -325,11 +424,11 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.28;
 				PRODUCT_BUNDLE_IDENTIFIER = pulcer.gamblingjournal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -367,9 +466,10 @@
 		436E416F2AA8C8E00040816C /* gamblingjournal.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				436E9A3B2ABCD30000D7DF91 /* gamblingjournalV2.xcdatamodel */,
 				436E41702AA8C8E00040816C /* gamblingjournal.xcdatamodel */,
 			);
-			currentVersion = 436E41702AA8C8E00040816C /* gamblingjournal.xcdatamodel */;
+			currentVersion = 436E9A3B2ABCD30000D7DF91 /* gamblingjournalV2.xcdatamodel */;
 			path = gamblingjournal.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
